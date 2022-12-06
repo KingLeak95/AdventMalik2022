@@ -5,7 +5,7 @@ def main(input_file):
     # Read File Input
     with open(input_file)  as input_fs:
         lines = input_fs.readlines()
-    
+
     input_text = ''.join(lines)
     if verbose:
         print(f"Text is {input_text}")
